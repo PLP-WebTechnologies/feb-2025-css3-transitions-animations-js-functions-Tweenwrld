@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Animations & Advanced JS Functions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Enhanced Animations & Preferences</h1>
+  </header>
+  
+  <main>
+    <!-- Animation Section -->
+    <section id="animationSection">
+      <h2>Enhanced CSS Animations</h2>
+      <label for="animationSelect">Choose Animation:</label>
+      <select id="animationSelect">
+        <option value="spin-scale">Spin & Scale</option>
+        <option value="bounce">Bounce</option>
+        <option value="fade">Fade</option>
+      </select>
+      <button id="animateButton">Animate Box</button>
+      <button id="resetButton">Reset Box</button>
+      <div id="box">Animate Me!</div>
+    </section>
+    
+    <!-- User Preferences Section -->
+    <section id="preferencesSection">
+      <h2>User Preferences</h2>
+      <div class="preference-group">
+        <label for="bgColorInput">Select Box Background Color:</label>
+        <input type="color" id="bgColorInput">
+        <button id="savePreference">Save Color</button>
+      </div>
+      <div class="preference-group">
+        <button id="resetPreferences">Reset Preferences</button>
+      </div>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
